@@ -32,7 +32,7 @@ public class TC_RF_012_UsingKeyboardKeysRegister {
 			actions.sendKeys(Keys.TAB).perform();
 			
 		}
-		actions.sendKeys("Maria").sendKeys(Keys.TAB).sendKeys("Jo").sendKeys(Keys.TAB).build().perform();
+		actions.sendKeys("Maria").sendKeys(Keys.TAB).sendKeys("Jo").sendKeys(Keys.TAB).sendKeys(CommonUtilities.generateBrandnewEmail()).sendKeys(Keys.TAB).sendKeys("01236547898").sendKeys(Keys.TAB).build().perform();
 		
 	}
 }
