@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-22T19:06:09 EST" name="Default suite" finished-at="2024-11-22T19:06:24 EST" duration-ms="15047">
+  <suite started-at="2024-11-29T19:44:53 EST" name="Default suite" finished-at="2024-11-29T19:45:02 EST" duration-ms="9135">
     <groups>
     </groups>
-    <test started-at="2024-11-22T19:06:09 EST" name="Default test" finished-at="2024-11-22T19:06:24 EST" duration-ms="15047">
-      <class name="registerPack.TC_RF_012_UsingKeyboardKeysRegister">
-        <test-method signature="registerUsingKeybordKeys()[pri:0, instance:registerPack.TC_RF_012_UsingKeyboardKeysRegister@4985cbcb]" started-at="2024-11-22T19:06:09 EST" name="registerUsingKeybordKeys" finished-at="2024-11-22T19:06:22 EST" duration-ms="13042" status="PASS">
+    <test started-at="2024-11-29T19:44:53 EST" name="Default test" finished-at="2024-11-29T19:45:02 EST" duration-ms="9135">
+      <class name="registerPack.TC_RF_014VerifyMandatoryfieldsWith">
+        <test-method signature="verifyAllMandatoryFields()[pri:0, instance:registerPack.TC_RF_014VerifyMandatoryfieldsWith@4e5ed836]" started-at="2024-11-29T19:44:53 EST" name="verifyAllMandatoryFields" finished-at="2024-11-29T19:45:02 EST" duration-ms="8769" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registerUsingKeybordKeys -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:registerPack.TC_RF_012_UsingKeyboardKeysRegister@4985cbcb]" started-at="2024-11-22T19:06:22 EST" name="tearDown" finished-at="2024-11-22T19:06:24 EST" duration-ms="1957" status="PASS">
+        </test-method> <!-- verifyAllMandatoryFields -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:registerPack.TC_RF_014VerifyMandatoryfieldsWith@4e5ed836]" started-at="2024-11-29T19:45:02 EST" name="teardown" finished-at="2024-11-29T19:45:02 EST" duration-ms="307" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- registerPack.TC_RF_012_UsingKeyboardKeysRegister -->
+        </test-method> <!-- teardown -->
+      </class> <!-- registerPack.TC_RF_014VerifyMandatoryfieldsWith -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="registerPack.TC_RF_011PhonenumWarning">
+      <class name="registerPack.TC_RF_014VerifyMandatoryfieldsWith">
         <methods>
-          <include name="invalidPhonenum"/>
+          <include name="verifyAllMandatoryFields"/>
+          <include name="teardown"/>
         </methods>
-      </class> <!-- registerPack.TC_RF_011PhonenumWarning -->
+      </class> <!-- registerPack.TC_RF_014VerifyMandatoryfieldsWith -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
