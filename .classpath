@@ -138,5 +138,15 @@
 	<classpathentry kind="lib" path="C:/Users/Manu Maria John/Desktop/Java Main Files/selenium sep version/selenium-safari-driver-4.25.0-sources.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Manu Maria John/Desktop/Java Main Files/selenium sep version/selenium-support-4.25.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Manu Maria John/Desktop/Java Main Files/selenium sep version/selenium-support-4.25.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Manu Maria John/.m2/repository/org/apache/ant/ant/1.10.15/ant-1.10.15.jar" sourcepath="C:/Users/Manu Maria John/.m2/repository/org/apache/ant/ant/1.10.15/ant-1.10.15-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="test" value="true"/>
+			<attribute name="maven.groupId" value="org.apache.ant"/>
+			<attribute name="maven.artifactId" value="ant"/>
+			<attribute name="maven.version" value="1.10.15"/>
+			<attribute name="maven.scope" value="test"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

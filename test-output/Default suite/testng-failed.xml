@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="registerPack.TC_RF_014VerifyMandatoryfieldsWith">
+      <class name="registerPack.TC_RF_026VerifyUIregisterPage">
         <methods>
-          <include name="verifyAllMandatoryFields"/>
-          <include name="teardown"/>
+          <include name="uiChecklistRegisterpage"/>
         </methods>
-      </class> <!-- registerPack.TC_RF_014VerifyMandatoryfieldsWith -->
+      </class> <!-- registerPack.TC_RF_026VerifyUIregisterPage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

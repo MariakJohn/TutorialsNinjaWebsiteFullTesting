@@ -2,20 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-29T19:44:53 EST" name="Default suite" finished-at="2024-11-29T19:45:02 EST" duration-ms="9135">
+  <suite started-at="2024-12-22T19:53:47 EST" name="Default suite" finished-at="2024-12-22T19:54:00 EST" duration-ms="13382">
     <groups>
     </groups>
-    <test started-at="2024-11-29T19:44:53 EST" name="Default test" finished-at="2024-11-29T19:45:02 EST" duration-ms="9135">
-      <class name="registerPack.TC_RF_014VerifyMandatoryfieldsWith">
-        <test-method signature="verifyAllMandatoryFields()[pri:0, instance:registerPack.TC_RF_014VerifyMandatoryfieldsWith@4e5ed836]" started-at="2024-11-29T19:44:53 EST" name="verifyAllMandatoryFields" finished-at="2024-11-29T19:45:02 EST" duration-ms="8769" status="PASS">
+    <test started-at="2024-12-22T19:53:47 EST" name="Default test" finished-at="2024-12-22T19:54:00 EST" duration-ms="13382">
+      <class name="registerPack.verifyRegisterAccountInAllEnvironments">
+        <test-method signature="RegisterAccountInAllEnvironments()[pri:0, instance:registerPack.verifyRegisterAccountInAllEnvironments@480d3575]" started-at="2024-12-22T19:53:47 EST" name="RegisterAccountInAllEnvironments" finished-at="2024-12-22T19:54:00 EST" duration-ms="13337" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyAllMandatoryFields -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:registerPack.TC_RF_014VerifyMandatoryfieldsWith@4e5ed836]" started-at="2024-11-29T19:45:02 EST" name="teardown" finished-at="2024-11-29T19:45:02 EST" duration-ms="307" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- registerPack.TC_RF_014VerifyMandatoryfieldsWith -->
+        </test-method> <!-- RegisterAccountInAllEnvironments -->
+      </class> <!-- registerPack.verifyRegisterAccountInAllEnvironments -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
