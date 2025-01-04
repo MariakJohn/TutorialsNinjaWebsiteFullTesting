@@ -5,6 +5,7 @@ import java.time.Duration;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.annotations.Test;
 
 import utils.CommonUtilities;
@@ -13,7 +14,7 @@ public class TC_RF_006 {
 	
 	@Test
 	public void verifyRegisteringAccountByNotSubscribingNewsletter() {
-		WebDriver driver=new ChromeDriver();
+		WebDriver driver=new EdgeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(40));
 		
 		driver.get("https://tutorialsninja.com/demo/index.php?route=common/home");

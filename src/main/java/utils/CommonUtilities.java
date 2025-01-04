@@ -2,20 +2,20 @@ package utils;
 
 import java.awt.image.BufferedImage;
 import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
 import java.io.IOException;
-import java.time.Duration;
 import java.util.Date;
+import java.util.Properties;
 
 import javax.imageio.ImageIO;
 
 import org.apache.commons.io.FileUtils;
-import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.io.FileHandler;
-import org.testng.annotations.Test;
 
 import ru.yandex.qatools.ashot.comparison.ImageDiff;
 import ru.yandex.qatools.ashot.comparison.ImageDiffer;
@@ -73,7 +73,23 @@ public class CommonUtilities {
 				ImageDiff imgDifference = imgDiffer.makeDiff(expectedBImg, acutualBImg);
 				
 				return imgDifference.hasDiff();
+					}
+
+		 public static Properties loadProperties() throws IOException {
+			 Properties prop=new Properties();
+			  
+			try {
+				FileReader fr = new FileReader(System.getProperty("user.dir")+"\\src\\main\\resources\\projectdata.properties");
+				 prop.load(fr);
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
 			
-			
-		}
+						 return prop;
+			 
+		 }
+		 
+
+
+
 }

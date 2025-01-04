@@ -6,15 +6,22 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 
 import utils.CommonUtilities;
 
 public class TC_RF_005 {
-
+	
+	WebDriver driver;
+	@AfterMethod
+	public void teardown() {
+	driver.quit();
+	}
+	
 	@Test
 	public void newsLetterYes() {
-		WebDriver driver = new ChromeDriver();
+		driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(40));
 
 		driver.get("https://tutorialsninja.com/demo/index.php?route=common/home");

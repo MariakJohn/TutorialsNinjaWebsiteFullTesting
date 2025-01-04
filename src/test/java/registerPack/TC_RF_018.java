@@ -12,6 +12,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
@@ -30,7 +31,13 @@ public class TC_RF_018 {
 
 	@Test
 	public void verifyHtWtNumberofChar() throws InterruptedException, IOException{
-		driver = new ChromeDriver();
+		// Set ChromeOptions
+	    ChromeOptions co = new ChromeOptions();
+	    co.addArguments("--remote-allow-origins=*");
+
+	    // Initialize WebDriver with ChromeOptions
+	    WebDriver driver = new ChromeDriver(co);
+		//driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(40));
 

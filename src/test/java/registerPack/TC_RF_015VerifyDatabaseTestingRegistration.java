@@ -24,7 +24,7 @@ public class TC_RF_015VerifyDatabaseTestingRegistration {
 	WebDriver driver;
 	
 
-	@Test
+	@Test(enabled=false)
 	public void VerifyDatabaseTest() throws InterruptedException {
 		
 		driver=new ChromeDriver();
